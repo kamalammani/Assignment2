@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+    <!-- Metadat -->
+      <meta charset="UTF-8">
+      <meta name="Substring" content="HTML,CSS,JS">
+      
+    <!-- Title tag -->
+    <title>
+      Substring
+    </title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+        <!-- form get input1 and input2 from users -->
+        <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off" id="formID">
+             <div>
+               <label>Input1</label><br/>
+               <input type="text" name="Input1" id="input1"><br/><br/>
+             </div>
+             <div>
+                <label>Input2</label><br/>
+                <input type="text" name="Input2" id="input2"><br/><br/>
+             </div>
+                <p style="font-weight:bold;color:red;font-size:17px;" id="error"></p>
+                <p style="font-weight:bold;color:green;font-size:17px;" id="result"></p>
+             <div class = button>
+                 <input type="submit" value="Submit">
+             </div>
+         </form>
+         <script src="script1.js">
+        </script>
+</body>
+</html>
